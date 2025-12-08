@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        /* 1. The Hero Section (Just to show scrolling) */
+        .hero {
+            height: 200px; /* Big header */
+            background-color: #ffcccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 2. THE STICKY NAVBAR */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            
+            /* THE MAGIC HAPPENS HERE */
+            position: sticky;
+            top: 0;
+        }
+
+        /* 3. Content to scroll through */
+        .content {
+            height: 2000px; /* Very tall so we can scroll */
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Welcome to My Site (Scroll Down!)</h1>
+    </div>
+
+    <div class="navbar">
+        I AM A STICKY NAVBAR
+    </div>
+
+    <div class="content">
+        <p>Keep scrolling...</p>
+        <p>Notice the black bar sticks to the top!</p>
+    </div>
+
+</body>
+
+</html>
