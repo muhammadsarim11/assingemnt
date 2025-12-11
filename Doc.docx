@@ -1,0 +1,38 @@
+TASK 1: Real Estate Property List
+Topic: Handling Large Numbers & Commission Logic. Scenario: You are working for a Property Dealer in DHA/Bahria Town. Create a sales sheet for 25 Properties.
+1. Data Entry (25 Unique Rows):
+Columns: Property ID, Location (e.g., Phase 1, Phase 6, Clifton, Gulshan), Type (House, Flat, Plot), Area (Sq Yards), Price per Sq Yard.
+Requirement:
+Enter 25 unique properties.
+Area should be between 120 and 1000.
+Price per Sq Yard should be realistic (e.g., 50,000 to 200,000).
+2. Calculation Tasks:
+Total Property Price: Create a column Total Value.
+Logic: Area multiplied by Price per Sq Yard.
+Agent Commission (2%): Create a column Agent Fee.
+Logic: Calculate 2% of the Total Value.
+Formatting: Apply the Comma Style (1,000,000) to all price columns so zeros are easy to read. (Home Tab > Number Section > Comma Icon).
+3. Logic Task (IF Formula):
+Category: Create a column Category.
+Logic: If Total Value is greater than 20,000,000 (2 Crore), display "Luxury". Otherwise, display "Standard".
+
+TASK 2: Hotel Booking Management
+Topic: Service Charges, Tax & Conditional Logic. Scenario: You are the Front Desk Manager at a 5-Star Hotel. Calculate the bills for 25 Guests.
+1. Data Entry (25 Unique Rows):
+Columns: Guest Name, Room Type (Standard, Deluxe, Suite), Nights Stayed, Rate Per Night.
+Requirement:
+Nights Stayed: Random numbers between 1 and 15.
+Rate Per Night: Standard (10,000), Deluxe (25,000), Suite (50,000).
+2. Calculation Tasks:
+Room Charges: Create a column Room Cost.
+Logic: Nights Stayed multiplied by Rate Per Night.
+Service Tax (13%): Create a column Tax Amount.
+Logic: Calculate 13% of Room Cost.
+Final Bill: Create a column Total Payable.
+Logic: Room Cost + Tax Amount.
+3. Visualization & Logic:
+VIP Status: Create a column Customer Type.
+Logic: If Nights Stayed is greater than 7, display "VIP", otherwise "Regular".
+Chart: Create a Column Chart showing Guest Name and Total Payable to see who paid the most.
+
+  
